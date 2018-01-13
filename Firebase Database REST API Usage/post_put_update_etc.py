@@ -1,10 +1,10 @@
 import pyrebase
 
 config = {
-  "apiKey": "AAAACJPNUos:APA91bEv3xJ7Hyo53nEPoxlXqxFYI_pQJzt05_s5bFYMfZg_zYjpZfhqTbOuc4vS1WDnD_Qh9P0GliMh5Jh5lsHxGgAy_e6Gq3Z4DrdwfZ8AJ9RG3baf9AwB3SlkI6R3DOLyNW807pFZ",
-  "authDomain": "myproject-96528.firebaseapp.com",
-  "databaseURL": "https://myproject-96528.firebaseio.com",
-  "storageBucket": "myproject-96528.appspot.com"
+  "apiKey": "******",
+  "authDomain": "projectId.firebaseapp.com",
+  "databaseURL": "https://databaseName.firebaseio.com",
+  "storageBucket": "projectId.appspot.com"
 }
 
 def writeToFirebase():
