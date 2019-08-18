@@ -1,9 +1,9 @@
 class Car(object):
-    condition = "new"
+    condition = "new"   #class variables
     def __init__(self, model, color, mpg):
-        self.model = model
-        self.color = color
-        self.mpg   = mpg
+        self.model = model  #Instance variables
+        self.color = color  #Instance variables
+        self.mpg   = mpg    #Instance variables
         
     def display_car(self):
         return "This is a "+ self.color+" "+self.model+" with " +str(self.mpg)+" MPG."
